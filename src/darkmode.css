@@ -1,0 +1,19 @@
+
+/* 
+    Tool Bar
+*/
+
+a.gs_in_ib .gs_lbl {
+    color: var(--go-text-white) !important;
+}
+
+
+
+/* 
+    Search Box
+*/
+
+/* label */
+.gs_in_ra label {
+    color: var(--go-text-white);
+}
