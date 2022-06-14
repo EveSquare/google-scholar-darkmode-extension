@@ -91,10 +91,16 @@ a.gs_in_ib.gs_in_gray .gs_lbl {
     Main Card
 */
 
+/* not link */
+.gs_rt {
+    color: var(--go-text-white);
+}
+
 /* main link */
 .gs_rt a:link, .gs_rt a:link b, .gs_rt2 a:link, .gs_rt2 a:link b {
     color: var(--go-text-link) !important;
 }
+
 
 .gs_rt a:visited, .gs_rt a:visited b, .gs_rt2 a:visited, .gs_rt2 a:visited b {
     color: var(--go-text-link-visited) !important;
