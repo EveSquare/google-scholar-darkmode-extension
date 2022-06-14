@@ -10,7 +10,8 @@
     {
       "run_at":"document_idle",
       "matches": [
-        "https://scholar.google.com/*"
+        "https://scholar.google.com/*",
+        "https://scholar.google.co.jp/*"
       ],
       "css": ["src/darkmode.css", "src/darkmode_scholar.css"]
     }
