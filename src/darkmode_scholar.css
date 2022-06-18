@@ -188,6 +188,11 @@ a:link {
     color: var(--go-text-link) !important;
 }
 
+/* no keyword */
+.gs_r {
+    color: var(--go-text-white) !important;
+}
+
 
 /* scroll */
 html {
