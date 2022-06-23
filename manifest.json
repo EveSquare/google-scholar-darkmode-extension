@@ -10,8 +10,8 @@
     {
       "run_at":"document_idle",
       "matches": [
-        "https://scholar.google.com/*",
-        "https://scholar.google.co.jp/*"
+        "*://scholar.google.com/*",
+        "*://scholar.google.co.jp/*"
       ],
       "css": ["src/darkmode.css", "src/darkmode_scholar.css"]
     }
@@ -22,10 +22,13 @@
     "48": "/images/icon_48.png",
     "128": "/images/icon_128.png"
   },
-  "web_accessible_resources": [
-    {
-      "resources": ["src/darkmode.css", "src/darkmode_sholar.css"],
-      "use_dynamic_url": true
-    }
-  ]
+  "web_accessible_resources": [{
+    "resources": [
+      "src/darkmode.css", "src/darkmode_sholar.css"
+    ],
+    "matches": [
+      "*://scholar.google.com/*",
+      "*://scholar.google.co.jp/*"
+    ]
+  }]
 }
