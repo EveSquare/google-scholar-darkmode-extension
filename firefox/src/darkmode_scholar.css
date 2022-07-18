@@ -1,0 +1,200 @@
+:root {
+    --go-background-color: rgb(32, 33, 36);
+    --go-background-hover: rgb(60, 64, 67);
+    --go-search-bar: rgb(32, 33, 35);
+    --go-toolbar: #292A2D;
+    --go-toolbar-border: #484848;
+    --go-border: #575757;
+    --go-content-background: #2a2a2d;
+    --go-text-white: #E8EAED;
+    --go-text-green: #00a435;
+    --go-text-link: #8AB4F8;
+    --go-text-link-visited: #c58af9;
+    --go-svg-color: #c2c2c2;
+    --go-link-pdf: #eb6060;
+}
+
+
+/* 
+    Top Page
+*/
+
+
+#gs_bdy {
+    background: var(--go-background-color);
+}
+
+#gs_top {
+    background: var(--go-background-color);
+}
+
+
+
+/* 
+Header  Tool Bar
+*/
+#gs_ab {
+    background-color: var(--go-toolbar) !important;
+    border: 1px solid var(--go-toolbar-border);
+}
+
+#gs_hdr {
+    background-color: var(--go-toolbar) !important;
+}
+
+#gs_hdr_tsi {
+    background: var(--go-search-bar);
+    border: 1px solid var(--go-border);
+    color: var(--go-text-white);
+}
+
+.gs_r .gs_or .gs_scl{
+    background: var(--go-content-background);
+    border-radius: 0.5rem;
+}
+
+a.gs_in_ib.gs_in_gray .gs_lbl {
+    color: var(--go-text-white) !important;
+}
+
+
+
+
+
+/* 
+    Tool Bar Text
+*/
+a.gs_in_ib.gs_in_gray .gs_lbl {
+    color: var(--go-text-white);
+}
+
+
+
+
+/* 
+    Menu Bar
+*/
+
+#gs_hdr_drw_in {
+    background: var(--go-background-color);
+}
+
+.gs_md_li:before {
+    background-color: var(--go-background-hover) !important;
+}
+
+
+
+
+
+/* 
+    Main Card
+*/
+
+/* not link */
+.gs_rt {
+    color: var(--go-text-white);
+}
+
+/* main link */
+.gs_rt a:link, .gs_rt a:link b, .gs_rt2 a:link, .gs_rt2 a:link b {
+    color: var(--go-text-link) !important;
+}
+
+
+.gs_rt a:visited, .gs_rt a:visited b, .gs_rt2 a:visited, .gs_rt2 a:visited b {
+    color: var(--go-text-link-visited) !important;
+}
+
+/* main link pdf */
+.gs_ctc {
+    color: var(--go-link-pdf) !important;
+}
+
+/* ather link */
+.a.gs_fl:link, .gs_fl a:link {
+    color: var(--go-text-link) !important;
+}
+
+.a.gs_fl:visited, .gs_fl a:visited {
+    color: var(--go-text-link-visited) !important;
+}
+
+/* author */
+.gs_a, .gs_a a:link, .gs_a a:visited {
+    color: var(--go-text-green) !important;
+}
+
+/* main text and bold text */
+.gs_rs, .gs_rs b, .gs_rt b, .gs_rt2 b {
+    color: var(--go-text-white) !important;
+}
+
+/* svg icon */
+.gs_or_svg {
+    stroke: var(--go-svg-color) !important;
+}
+
+
+
+
+/* 
+    Side Bar
+*/
+
+.gs_bdy_sb_sec a:link, .gs_bdy_sb_sec a:visited {
+    color: var(--go-text-white) !important;
+}
+
+/* default */
+.gs_bdy_sb_sel a:link, .gs_bdy_sb_sel a:visited {
+    color: #d14836 !important;
+    text-decoration: none;
+}
+
+
+
+
+/* 
+    Pagination
+*/
+#gs_n b {
+    color: var(--go-text-white);
+}
+
+#gs_n a:link, #gs_n a:visited {
+    color: var(--go-text-white) !important;
+}
+
+
+
+/* 
+    Footer
+*/
+
+#gs_ftr {
+    background-color: var(--go-background) !important;
+    border: none;
+}
+
+
+
+/* 
+    Other
+*/
+
+/* Search the entire web */
+a:link {
+    color: var(--go-text-link) !important;
+}
+
+/* no keyword */
+.gs_r {
+    color: var(--go-text-white) !important;
+}
+
+
+/* scroll */
+html {
+    background: var(--go-background-color);
+}

@@ -1,0 +1,9 @@
+{
+    "name": {"message": "Google Scholar ダークモード"},
+    "short_name": {
+        "message": "Google Scholar ダークモード",
+        "description": "Google Scholarの外観をダークモードに変更します。"
+    },
+    "description": {"message": "Google Scholarの外観をダークモードに変更します。"},
+    "author": {"message": "EveSquare"}
+}
